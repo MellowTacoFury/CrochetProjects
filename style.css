@@ -240,7 +240,6 @@ footer a:focus {
 {
     display: flex;
     background-color:var(--OrangeHighlight);
-    
 }
 
 /* Tablet*/
@@ -295,10 +294,20 @@ footer a:focus {
     width: 100%;
     justify-self: stretch;
   }
+  .Stars
+    {
+        display: flex;
+        background-color:var(--OrangeHighlight);
+    }
 }
 
 /* Desktop*/
 @media (min-width: 1024px) {
+    .Stars
+    {
+        display: flex;
+        background-color:var(--OrangeHighlight);
+    }
     main {
         max-width: 1200px;
         margin: 0 auto;
