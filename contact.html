@@ -13,7 +13,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="reviews.html">Reviews</a></li>
             </ul>
@@ -23,9 +22,9 @@
     
 <!-- Contact Form -->
 <section id="contact" class="contact-form" aria-labelledby="contact-heading">
-  <h2 id="contact-heading">Questions or Requests?</h2>
-  <p>If you have something you want, let me know! We can talk about it!</p>
-  <form action="#" method="post">
+  <h2 id="contact-heading">Questions? Requests? Give a Review?</h2>
+  <p>If you have something you want, or just want to chat, let me know! We can talk about it! Or if you want to submit a review, add a pic of it!</p>
+  <form target="_blank" action="https://formsubmit.co/a68761d527624339a5874cd7612a38d7" method="POST">
     <div class="form-grid">
       <div class="row-pair">
         <div class="form-row">
@@ -41,6 +40,9 @@
       </div>
 
       <div class="form-row">
+        <label for="myfile">Select an image file:</label>
+        <input type="file" id="myfile" name="myfile">
+      
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="7" required aria-required="true"></textarea>
       </div>
